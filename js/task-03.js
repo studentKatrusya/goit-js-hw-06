@@ -17,7 +17,7 @@ const makeImagesOptions = option => {
   const { url, alt } = option;
   return `
   <li>
-  <img src= ${url}  alt= ${alt}/>
+  <img src= '${url}'  alt= '${alt}'/>
   </li>
   `
     
